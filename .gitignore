@@ -1,0 +1,8 @@
+.DS_Store
+cache/*
+media/*
+biggie/node_modules/*
+biggie/generated/*
+biggie/build/*
+biggie/assets/js/routes.js
+biggie/assets/less/import.less
