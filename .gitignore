@@ -1,6 +1,4 @@
 .DS_Store
-cache/*
-media/*
 biggie/node_modules/*
 biggie/generated/*
 biggie/build/*
