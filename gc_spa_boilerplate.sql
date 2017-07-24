@@ -3,7 +3,7 @@
 -- https://www.phpmyadmin.net/
 --
 -- Client :  localhost:3306
--- Généré le :  Lun 24 Juillet 2017 à 14:40
+-- Généré le :  Lun 24 Juillet 2017 à 15:02
 -- Version du serveur :  5.6.35
 -- Version de PHP :  5.6.30
 
@@ -201,7 +201,7 @@ CREATE TABLE `human` (
 
 INSERT INTO `human` (`id`, `key`, `firstname`, `lastname`, `descr`, `title`, `password`, `created`, `updated`, `status`, `system`, `profilepic`, `owner`, `pref`) VALUES
 (1, 'anonymous', '', '', '', '', '', '0000-00-00 00:00:00', '0000-00-00 00:00:00', 'live', 1, '', 'human_2', ''),
-(2, 'administrator', '', '', '{\"fr\":\"\",\"en\":\"\"}', 'Admin', '$2y$10$n.yfTPOZ12ti0rzRlR/yFu.f8c.6IDIPJYV91qSIZmLkG2JVcyQYi', '2015-03-28 15:27:52', '2017-07-24 14:40:04', 'live', 0, '', 'human_2', '');
+(2, 'administrator', '', '', '{\"fr\":\"\",\"en\":\"\"}', 'Admin', '$2y$10$n.yfTPOZ12ti0rzRlR/yFu.f8c.6IDIPJYV91qSIZmLkG2JVcyQYi', '2015-03-28 15:27:52', '2017-07-24 15:01:05', 'live', 0, '', 'human_2', '{\"greenbutton\":{\"edit\":\"live\"}}');
 
 -- --------------------------------------------------------
 
@@ -375,13 +375,13 @@ CREATE TABLE `page` (
 --
 
 INSERT INTO `page` (`id`, `key`, `title`, `metatitle`, `metadescr`, `url`, `type`, `system`, `created`, `updated`, `owner`, `status`, `live`) VALUES
-(1, 'home', '{\"fr\":\"Accueil\",\"en\":\"Home\"}', '{\"fr\":\"\",\"en\":\"Marcy homepage\"}', '{\"fr\":\"\",\"en\":\"Description marcy home en\"}', '{\"fr\":\"\\/accueil\",\"en\":\"\\/home\"}', '{\"key\":\"content\",\"http_status\":\"200 OK\",\"content_type\":\"html\",\"url\":\"\",\"master\":{\"app\":\"content\",\"template\":\"\\/home\\/home\",\"param\":{\"title\":{\"fr\":\"Accueil\",\"en\":\"Home\"},\"descr\":{\"fr\":\"Pid velit porttitor in elit rhoncus mattis, ut. A pulvinar? Duis ultricies, elementum et tempor dictumst elementum, magna lundium magna in. Ac, enim est pulvinar urna porta aliquet phasellus habitasse dictumst lacus quis, ridiculus, magna eu aliquet etiam. Porttitor montes? Rhoncus tortor ac, tortor urna, massa risus amet hac purus nisi rhoncus a tristique in? Nunc, lorem! In elementum ac risus eu augue pellentesque! Tortor sit tincidunt. In, sit. Integer, a mauris, in purus nisi, lorem, aenean, a nascetur tristique mauris ultrices odio non urna purus hac adipiscing odio tincidunt? Pulvinar! Nec mauris parturient elementum scelerisque, odio magnis, egestas nunc. Et pulvinar sit integer a sed nunc platea. Tristique sit! Montes nisi! Aliquam adipiscing ridiculus non? Aliquam placerat porttitor ultrices.\\r\\n\\r\\n\",\"en\":\"Pid velit porttitor in elit rhoncus mattis, ut. A pulvinar? Duis ultricies, elementum et tempor dictumst elementum, magna lundium magna in. Ac, enim est pulvinar urna porta aliquet phasellus habitasse dictumst lacus quis, ridiculus, magna eu aliquet etiam. Porttitor montes? Rhoncus tortor ac, tortor urna, massa risus amet hac purus nisi rhoncus a tristique in? Nunc, lorem! In elementum ac risus eu augue pellentesque! Tortor sit tincidunt. In, sit. Integer, a mauris, in purus nisi, lorem, aenean, a nascetur tristique mauris ultrices odio non urna purus hac adipiscing odio tincidunt? Pulvinar! Nec mauris parturient elementum scelerisque, odio magnis, egestas nunc. Et pulvinar sit integer a sed nunc platea. Tristique sit! Montes nisi! Aliquam adipiscing ridiculus non? Aliquam placerat porttitor ultrices.\\r\\n\\r\\n\"}}}}', 0, '2013-03-25 17:08:31', '2017-07-23 17:11:26', '2', 'live', 0),
+(1, 'home', '{\"fr\":\"Accueil\",\"en\":\"Home\"}', '{\"fr\":\"\",\"en\":\"Marcy homepage\"}', '{\"fr\":\"\",\"en\":\"Description marcy home en\"}', '{\"fr\":\"\\/accueil\",\"en\":\"\\/home\"}', '{\"key\":\"content\",\"http_status\":\"200 OK\",\"content_type\":\"html\",\"url\":\"\",\"master\":{\"app\":\"content\",\"template\":\"\\/home\\/home\",\"param\":{\"title\":{\"fr\":\"Accueil\",\"en\":\"Home\"},\"descr\":{\"fr\":\"Pid velit porttitor in elit rhoncus mattis, ut. A pulvinar? Duis ultricies, elementum et tempor dictumst elementum, magna lundium magna in. Ac, enim est pulvinar urna porta aliquet phasellus habitasse dictumst lacus quis, ridiculus, magna eu aliquet etiam. Porttitor montes? Rhoncus tortor ac, tortor urna, massa risus amet hac purus nisi rhoncus a tristique in? Nunc, lorem! In elementum ac risus eu augue pellentesque! Tortor sit tincidunt. In, sit. Integer, a mauris, in purus nisi, lorem, aenean, a nascetur tristique mauris ultrices odio non urna purus hac adipiscing odio tincidunt? Pulvinar! Nec mauris parturient elementum scelerisque, odio magnis, egestas nunc. Et pulvinar sit integer a sed nunc platea. Tristique sit! Montes nisi! Aliquam adipiscing ridiculus non? Aliquam placerat porttitor ultrices.\\r\\n\\r\\n\",\"en\":\"Pid velit porttitor in elit rhoncus mattis, ut. A pulvinar? Duis ultricies, elementum et tempor dictumst elementum, magna lundium magna in. Ac, enim est pulvinar urna porta aliquet phasellus habitasse dictumst lacus quis, ridiculus, magna eu aliquet etiam. Porttitor montes? Rhoncus tortor ac, tortor urna, massa risus amet hac purus nisi rhoncus a tristique in? Nunc, lorem! In elementum ac risus eu augue pellentesque! Tortor sit tincidunt. In, sit. Integer, a mauris, in purus nisi, lorem, aenean, a nascetur tristique mauris ultrices odio non urna purus hac adipiscing odio tincidunt? Pulvinar! Nec mauris parturient elementum scelerisque, odio magnis, egestas nunc. Et pulvinar sit integer a sed nunc platea. Tristique sit! Montes nisi! Aliquam adipiscing ridiculus non? Aliquam placerat porttitor ultrices.\\r\\n\\r\\n\"}}}}', 0, '2013-03-25 17:08:31', '2017-07-24 15:01:01', '2', 'live', 0),
 (2, 'error_404', '{\"fr\":\"Erreur 404\",\"en\":\"Error 404\"}', '', '', '/404', '{\"key\":\"content\",\"http_status\":\"200 OK\",\"content_type\":\"html\",\"url\":\"\",\"master\":{\"app\":\"content\",\"template\":\"\\/master\\/master\"}}', 1, '2013-10-16 06:48:43', '2015-12-01 13:42:29', 'human_2', 'live', 0),
 (3, 'api.json', '{\"fr\":\"API (json)\",\"en\":\"API (json)\"}', '', '', '/api.json', '{\"key\":\"content\",\"http_status\":\"200 OK\",\"content_type\":\"json\",\"url\":\"\",\"master\":{\"app\":\"api\",\"template\":\"\\/api\"}}', 1, '2015-07-31 16:07:43', '2015-11-20 17:50:39', 'human_2', 'live', 0),
 (4, 'login.post', '{\"fr\":\"Login post\",\"en\":\"Login post\"}', '', '', '/login', '{\"key\":\"content\",\"http_status\":\"200 OK\",\"content_type\":\"json\",\"url\":\"\",\"master\":{\"app\":\"form\",\"template\":\"\\/login.admin\"}}', 1, '2015-03-20 19:13:39', '2015-11-20 17:50:31', 'human_2', 'live', 0),
 (6, 'logout', '{\"fr\":\"Log out\",\"en\":\"Log out\"}', '{\"fr\":\"\",\"en\":\"\"}', '{\"fr\":\"\",\"en\":\"\"}', '{\"fr\":\"\\/logout\",\"en\":\"\\/logout\"}', '{\"key\":\"content\",\"http_status\":\"200 OK\",\"content_type\":\"routine\",\"url\":\"\",\"master\":{\"app\":\"form\",\"template\":\"\\/logout\"}}', 1, '2014-11-13 13:09:26', '2017-07-22 15:45:47', 'human_2', 'live', 0),
-(7, 'news', '{\"fr\":\"News\",\"en\":\"News\"}', '{\"fr\":\"\",\"en\":\"\"}', '{\"fr\":\"\",\"en\":\"\"}', '{\"fr\":\"\\/news\",\"en\":\"\\/news\"}', '{\"key\":\"content\",\"http_status\":\"200 OK\",\"content_type\":\"html\",\"url\":\"\",\"master\":{\"app\":\"reader\",\"param\":{\"item\":\"news\",\"list\":\"section_1\",\"detail\":\"section_2\",\"404\":\"1\"}}}', 0, '2017-07-19 15:51:20', '2017-07-23 17:11:18', 'human_2', 'live', 0),
-(8, 'blog', '{\"fr\":\"Blog\",\"en\":\"Blog\"}', '{\"fr\":\"\",\"en\":\"\"}', '{\"fr\":\"\",\"en\":\"\"}', '{\"fr\":\"\\/blog\",\"en\":\"\\/blog\"}', '{\"key\":\"content\",\"http_status\":\"200 OK\",\"content_type\":\"html\",\"url\":\"\",\"master\":{\"app\":\"reader\",\"param\":{\"item\":\"blog\",\"list\":\"section_6\",\"detail\":\"section_7\",\"404\":\"1\"}}}', 0, '2017-07-21 20:27:22', '2017-07-23 17:11:26', 'human_2', 'live', 0),
+(7, 'news', '{\"fr\":\"News\",\"en\":\"News\"}', '{\"fr\":\"\",\"en\":\"\"}', '{\"fr\":\"\",\"en\":\"\"}', '{\"fr\":\"\\/news\",\"en\":\"\\/news\"}', '{\"key\":\"content\",\"http_status\":\"200 OK\",\"content_type\":\"html\",\"url\":\"\",\"master\":{\"app\":\"reader\",\"param\":{\"item\":\"news\",\"list\":\"section_1\",\"detail\":\"section_2\",\"404\":\"1\"}}}', 0, '2017-07-19 15:51:20', '2017-07-24 15:01:05', 'human_2', 'live', 0),
+(8, 'blog', '{\"fr\":\"Blog\",\"en\":\"Blog\"}', '{\"fr\":\"\",\"en\":\"\"}', '{\"fr\":\"\",\"en\":\"\"}', '{\"fr\":\"\\/blog\",\"en\":\"\\/blog\"}', '{\"key\":\"content\",\"http_status\":\"200 OK\",\"content_type\":\"html\",\"url\":\"\",\"master\":{\"app\":\"reader\",\"param\":{\"item\":\"blog\",\"list\":\"section_6\",\"detail\":\"section_7\",\"404\":\"1\"}}}', 0, '2017-07-21 20:27:22', '2017-07-24 15:01:01', 'human_2', 'live', 0),
 (9, 'contact', '{\"fr\":\"Contact\",\"en\":\"Contact\"}', '{\"fr\":\"\",\"en\":\"\"}', '{\"fr\":\"\",\"en\":\"\"}', '{\"fr\":\"\\/contact\",\"en\":\"\\/contact\"}', '{\"key\":\"content\",\"http_status\":\"200 OK\",\"content_type\":\"html\",\"url\":\"\",\"master\":{\"app\":\"content\",\"template\":\"\\/contact\\/contact\",\"param\":{\"title\":{\"fr\":\"Contact fr\",\"en\":\"Contact en\"},\"descr\":{\"fr\":\"Ut risus facilisis urna pid sed diam cum turpis platea scelerisque? Scelerisque vel aliquet! Et et tempor dis augue, facilisis velit! Pulvinar quis elementum a ridiculus rhoncus natoque, enim lundium ultrices, platea? Tincidunt tempor dignissim in montes amet lectus et? Elit nunc? Cum porttitor, placerat, tincidunt amet platea! Egestas rhoncus non elementum dapibus tortor ridiculus amet risus, est. Ut turpis, velit porttitor et, velit elit vel, pid dolor rhoncus purus ut scelerisque, hac purus in lacus, tempor? Mid aliquet ac, cras ultrices habitasse aliquet porta lacus ac tincidunt mattis integer, sed rhoncus elit, purus integer mid, turpis et ridiculus ridiculus, nascetur nascetur risus tortor? Ac ultricies enim egestas, placerat integer ultricies lacus nascetur nec dictumst ut, phasellus turpis mauris amet.\\r\\n\\r\\n\",\"en\":\"ceci est le texte anglais\"}}}}', 0, '2017-07-21 20:27:54', '2017-07-23 16:28:50', 'human_2', 'live', 0);
 
 -- --------------------------------------------------------
@@ -412,9 +412,7 @@ INSERT INTO `section` (`id`, `key`, `title`, `descr`, `zone`, `app`, `created`, 
 (1, '24fe283b8ef974b6738168d6d285e9bf', 'News list', '', '', '{\"app\":\"content\",\"template\":\"\\/news-list\\/news-list\"}', '2017-07-21 18:48:27', '2017-07-21 18:48:27', 'live', 0),
 (2, '3f4552b8e926f9acc123a04b2787558d', 'News detail', '', '', '{\"app\":\"content\",\"template\":\"\\/news-detail\\/news-detail\"}', '2017-07-21 18:48:56', '2017-07-21 18:48:56', 'live', 0),
 (6, 'e21f781955669a8bf8d1d39d3996b818', 'Blog list', '', '', '{\"app\":\"content\",\"template\":\"\\/blog-list\\/blog-list\"}', '2017-07-21 18:48:27', '2017-07-21 20:23:45', 'live', 0),
-(7, 'bcf6b44a8b644d6e14b2077233149aab', 'Blog detail', '', '', '{\"app\":\"content\",\"template\":\"\\/blog-detail\\/blog-detail\"}', '2017-07-21 18:48:56', '2017-07-21 20:24:06', 'live', 0),
-(9, '793a12d4f5c4286a43fd77c6759fdc63', 'reader news', '', '', '{\"app\":\"reader\",\"param\":{\"item\":\"news\",\"list\":\"section_1\",\"detail\":\"section_2\",\"404\":\"1\"}}', '2017-07-23 17:10:43', '2017-07-23 17:10:43', 'live', 0),
-(10, '793a12d4f5c4286a43fd77c6759fdc63', 'reader blog', '', '', '{\"app\":\"reader\",\"param\":{\"item\":\"blog\",\"list\":\"section_6\",\"detail\":\"section_7\",\"404\":\"1\"}}', '2017-07-23 17:11:01', '2017-07-23 17:11:01', 'live', 0);
+(7, 'bcf6b44a8b644d6e14b2077233149aab', 'Blog detail', '', '', '{\"app\":\"content\",\"template\":\"\\/blog-detail\\/blog-detail\"}', '2017-07-21 18:48:56', '2017-07-21 20:24:06', 'live', 0);
 
 -- --------------------------------------------------------
 
@@ -526,8 +524,6 @@ INSERT INTO `_rel` (`item`, `itemid`, `key`, `rel`, `relid`, `position`) VALUES
 ('page', 10, 'section', 'section', 5, 0),
 ('page', 10, 'parent', 'page', 1, 0),
 ('page', 9, 'parent', 'page', 1, 0),
-('page', 7, 'section', 'section', 9, 0),
-('page', 8, 'section', 'section', 10, 0),
 ('page', 8, 'parent', 'page', 1, 0),
 ('page', 1, 'child', 'page', 7, 0),
 ('page', 1, 'child', 'page', 8, 1),
@@ -730,7 +726,7 @@ ALTER TABLE `item`
 -- AUTO_INCREMENT pour la table `logbook`
 --
 ALTER TABLE `logbook`
-  MODIFY `id` mediumint(3) UNSIGNED NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=172;
+  MODIFY `id` mediumint(3) UNSIGNED NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=177;
 --
 -- AUTO_INCREMENT pour la table `machine`
 --
