@@ -12,13 +12,13 @@
 		<![endif]-->
 
 		<link href="favicon.ico" rel="shortcut icon">
-		<link rel="stylesheet" href="/www/boilerplate/biggie/build/app.min.css">
+		<link rel="stylesheet" href="<?= $biggieRoot ?>/build/app.min.css">
 	</head>
 	<body>
 		<main></main>
 		<footer>
 			<p><a href="/en" class="js-link">en</a>&nbsp;<a href="/fr" class="js-link">fr</a></p>
 		</footer>
-		<script src="/www/boilerplate/biggie/build/app.min.js"></script>
+		<script src="<?= $biggieRoot ?>/build/app.min.js"></script>
 	</body>
 </html>
