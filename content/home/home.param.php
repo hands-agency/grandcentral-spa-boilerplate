@@ -10,7 +10,7 @@ $fields['title'] = new fieldI18n('title', $p);
 
 $p = array(
   'label' => 'Description',
-  'field' => 'fieldTextarea'
+  'field' => 'fieldSirtrevor'
 );
 $fields['descr'] = new fieldI18n('descr', $p);
 
